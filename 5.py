@@ -25,7 +25,6 @@ pallate = gradient((0, 0, 0), (200, 20, 20), 30) + \
 
 while True:
     clock.tick(1000)
-    print(clock.get_fps())
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT: sys.exit()
